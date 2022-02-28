@@ -1,4 +1,3 @@
-import { fontSize } from "@mui/system";
 import React, { Component } from "react";
 class Calcule extends Component {
     constructor() {
@@ -28,7 +27,7 @@ class Calcule extends Component {
             <form >
                 valeur 1 :<input type="number" name="valeur1" onChange={this.chnagerState} /><br />
                 valeur 2 :<input type="number" name="valeur2" onChange={this.chnagerState} />
-                <h3 >la somme {Number(Number(this.state.valeur1)) + (Number(this.state.valeur2))} </h3>
+                <h3 >la somme est {Number(Number(this.state.valeur1)) + (Number(this.state.valeur2))} </h3>
             </form>
         );
     }
